@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: "hammersmith";
+    src: url("../fonts/HammersmithOne-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: #bfbfbf;
+    font-family: "montserrat";
+}
+.margin_one{
+    display: grid;
+    place-items: center;
+    margin: 3rem;
+}
+
+
+/* HOME */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    max-width: 34rem;
+}
+.home__hi{
+    font-family: "hammersmith";
+    font-size: 5rem;
+    color: white;
+}
+.home__welcome{
+    line-height: 2rem;
+}
+.home__over_here a{
+    color: white;
+    transition: 0.3s;
+}
+.home__over_here a:hover{
+    color: #ed1d27;
+}
+
+@media screen and (min-width: 72rem){
+    .home{
+        text-align: center;
+    }
+}

@@ -1,1 +1,1 @@
-<?php require ""; ?>
+<?php header("Location: pages/home.php") ; ?>
