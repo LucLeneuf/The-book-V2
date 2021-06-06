@@ -4,17 +4,14 @@
 
     <div class="article">
 
-            <div>
-                <p class="grand"> WEBSITE - DISHONORED II </p>
-        
-    		    <p class="marge gris3 info">
-    		    	Website version of the artbook Dishonored II.
-    		    </p>
-            </div>
-        	
-
-
-    		
+                <div class="article__text">
+                    <p class="article__text__title"> WEBSITE - DISHONORED II </p>
+            
+                    <p class="article__text__description">
+                        Design of mockup for a future site. <br> 
+                        The visuals are thought mobile first and have been realized on Photoshop.
+                    </p>
+                </div>
 
 
     			<div class="article__pc">
@@ -42,7 +39,6 @@
                             </div>
                         </div>
 		   		</div>
-
 
 			
 				<div class="article__mobile">
@@ -82,7 +78,8 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="../assets/scripts/jquery.fittext.js"></script>
 	<script type="text/javascript">
-		$(".article__pc__title").fitText(1.4, { minFontSize: '30px', maxFontSize: '300px' });
+		$(".article__pc__title").fitText(2, { minFontSize: '16px', maxFontSize: '22px' }),
+        $(".article__text__title").fitText(1.6, { minFontSize: '24px', maxFontSize: '100px' });
 </script>
 
 <?php require "../require/footer.php"; ?>
