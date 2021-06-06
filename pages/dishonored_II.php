@@ -82,7 +82,11 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="../assets/scripts/jquery.fittext.js"></script>
 	<script type="text/javascript">
+<<<<<<< HEAD
 		$(".article__pc__title, .article__mobile__title").fitText(2, { minFontSize: '16px', maxFontSize: '22px' }),
+=======
+		$(".article__pc__title").fitText(2, { minFontSize: '16px', maxFontSize: '22px' }),
+>>>>>>> 04b5a274c6fa61d0c97b973484739d2f9eb9fd85
         $(".article__text__title").fitText(1.6, { minFontSize: '24px', maxFontSize: '100px' });
 </script>
 
