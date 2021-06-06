@@ -111,7 +111,7 @@ img{
 }
 .visual__item__text_mobile{
     font-family: "gilroy";
-    letter-spacing: 0.2rem;
+    letter-spacing: 6px;
 }
 
 
@@ -141,7 +141,13 @@ img{
     flex-direction: column;
     row-gap: 1.5rem;
 }
-.article__pc__title{
+.article__mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.article__pc__title, .article__mobile__title{
     margin-bottom: 2rem;
     font-family: "gilroy";
     letter-spacing: 6px;

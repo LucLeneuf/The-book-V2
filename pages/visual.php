@@ -59,4 +59,10 @@
 
 </div>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 	<script src="../assets/scripts/jquery.fittext.js"></script>
+	<script type="text/javascript">
+        $(".visual__item__text_mobile").fitText(1.6, { minFontSize: '24px', maxFontSize: '60px' });
+</script>
+
 <?php require "../require/footer.php"; ?>
