@@ -1,71 +1,59 @@
 <?php require "../require/header.php"; ?>
 
-<div class="margin_one">
+<div class="margin_two">
 
 	<div class="visual">
 
                 <div class="visual__item">
-
 						<p class="visual__item__text_mobile">
 							<span style="color:white;" >WEBSITE</span><br> 
 							MODEL
 						</p>
 					
-
 						<div class="visual__item__thumbnail">
-							<a href="into_visual/website_model.php">
+							<a href="website_model.php">
 								<img src="../assets/images/thumbnail_website.jpg">
 
-								<p style="color:white;" class="visual__item__thumbnail__text_pc"> WEBSITE MODEL</p>
+								<p style="color:white;" class="visual__item__thumbnail__text_pc"> WEBSITE MODEL </p>
 								
 								<div class="visual__item__thumbnail__background"></div>
 							</a>
 						</div>
-						
 				</div>
 
+				<div class="visual__item">
+						<p class="visual__item__text_mobile">
+							<span style="color:white;" >MAGAZINE</span><br> 
+							MOCKUP
+						</p>
 
+						<div class="visual__item__thumbnail">
+							<a href="into_visual/website_model.php">
+								<img src="../assets/images/thumbnail_magazine.jpg">
 
-				<div class="Magazine_mockup">
-
-				   		 <div class="grand marge mini">
-							<p> MAGAZINE </p> 
-							<p class="gris3"> MOCKUP </p>
-						</div>
-
-						<div class="miniature">
-							<a href="magazine_mockup.html">
-								<img src="img/Magazine_miniature.jpg">
+								<p style="color:white;" class="visual__item__thumbnail__text_pc"> MAGAZINE MOCKUP </p>
 								
-								<div class="hover">
-					   				<p> MAGAZINE MOCKUP </p>
-					   			</div>
-					   		</a>
-						</div>
-				</div>
-
-
-				<div class="Digital_coloring">
-
-						<div class="grand marge mini">
-							<p>DIGITAL</p> 
-							<p class="gris3">COLORING</p>
-						</div>
-
-						<div class="miniature">
-							<a href="digital_coloring.html">
-								<img src="img/minia_kugo.jpg">
-
-								<div class="hover">
-					   				<p> DIGITAL COLORING </p>
-					   			</div> 
+								<div class="visual__item__thumbnail__background"></div>
 							</a>
 						</div>
 				</div>
 
-				
-			
+				<div class="visual__item">
+						<p class="visual__item__text_mobile">
+							<span style="color:white;" >DIGITAL</span><br> 
+							COLORING
+						</p>
 
+						<div class="visual__item__thumbnail">
+							<a href="into_visual/website_model.php">
+								<img src="../assets/images/thumbnail_coloration.jpg">
+
+								<p style="color:white;" class="visual__item__thumbnail__text_pc"> DIGITAL COLORING </p>
+								
+								<div class="visual__item__thumbnail__background"></div>
+							</a>
+						</div>
+				</div>
 
 	</div>
 
