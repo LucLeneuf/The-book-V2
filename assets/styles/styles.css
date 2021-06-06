@@ -116,10 +116,25 @@ img{
 
 
 /* ARTICLE */
+
 .article{
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
+}
+.article__text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.article__text__title{
+    font-family: "gilroy";
+    letter-spacing: 6px;
+    color: white;
+}
+.article__text__description
+{
+    line-height: 1.5rem;
 }
 .article__pc__items{
     display: flex;
@@ -129,8 +144,9 @@ img{
 .article__pc__title{
     margin-bottom: 2rem;
     font-family: "gilroy";
+    letter-spacing: 6px;
+    color: white;
 }
-
 
 
 @media screen and (min-width: 30rem)
@@ -143,6 +159,12 @@ img{
         flex-direction: column;
         row-gap: 1.5rem;
     }  
+    .article{
+        row-gap: 6rem;
+    }
+    .article__text{
+        row-gap: 3rem;
+    }
     .article__pc__items{
         display: flex;
         flex-direction: column;
@@ -168,7 +190,7 @@ img{
     .visual__item__text_mobile{
         display: none;
     }
-    .visual__item__thumbnail:hover .visual__item__thumbnail__background, .visual__item__thumbnail:hover .visual__item__thumbnail__text_pc {
+    .visual__item__thumbnail:hover .visual__item__thumbnail__background, .visual__item__thumbnail:hover .visual__item__thumbnail__text_pc{
         opacity: 1;
         left: 0;
         display: flex;
@@ -178,10 +200,14 @@ img{
     .article{
         width: 70%;
     }
+    .article__text{
+        text-align: center;
+    }
     .article__pc__items{
         row-gap: 10vw;
     }
     .article__pc__title{
         margin-bottom: 5vw;
+        text-align: center;
     }
 }
