@@ -6,22 +6,22 @@
 
                 <div class="visual__item">
 
-							<p class="visual__item__text_mobile">
-                                <span style="color:white;" >WEBSITE</span><br> 
-							    MODEL
-                            </p>
+						<p class="visual__item__text_mobile">
+							<span style="color:white;" >WEBSITE</span><br> 
+							MODEL
+						</p>
 					
 
 						<div class="visual__item__thumbnail">
 							<a href="into_visual/website_model.php">
 								<img src="../assets/images/thumbnail_website.jpg">
 
-					   			<p class="visual__item__thumbnail__text_pc"> 
-                                    <span style="color:white;">WEBSITE</span><br> 
-							        MODEL
-                                </p>
+								<p style="color:white;" class="visual__item__thumbnail__text_pc"> WEBSITE MODEL</p>
+								
+								<div class="visual__item__thumbnail__background"></div>
 							</a>
 						</div>
+						
 				</div>
 
 
