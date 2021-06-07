@@ -31,6 +31,13 @@ img{
     height: auto;
     vertical-align: middle;
 }
+a{
+    color: white;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ed1d27;
+}
 .margin_one{
     display: grid;
     place-items: center;
@@ -58,13 +65,6 @@ img{
 }
 .home__welcome{
     line-height: 2rem;
-}
-.home__over_here a{
-    color: white;
-    transition: 0.3s;
-}
-.home__over_here a:hover{
-    color: #ed1d27;
 }
 
 
@@ -132,11 +132,11 @@ img{
     letter-spacing: 6px;
     color: white;
 }
-.article__text__description
+.article__text__description, .sources
 {
     line-height: 1.5rem;
 }
-.article__pc__items{
+.article__pc__items, .article__mobile__items, .article__mobile__items__group{
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
@@ -146,9 +146,11 @@ img{
     display: flex;
     flex-direction: column;
 }
-
+.article__mobile__items__group{
+    justify-content: space-between;
+}
 .article__pc__title, .article__mobile__title{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-family: "gilroy";
     letter-spacing: 6px;
     color: white;
@@ -166,18 +168,18 @@ img{
         row-gap: 1.5rem;
     }  
     .article{
-        row-gap: 6rem;
+        row-gap: 5rem;
     }
-    .article__text{
-        row-gap: 3rem;
-    }
-    .article__pc__items{
-        display: flex;
-        flex-direction: column;
+    .article__pc__items, .article__mobile__items, .article__text{
         row-gap: 3rem;
     }  
-    .article__pc__title{
+    .article__pc__title, .article__mobile__title{
         margin-bottom: 3rem;
+    }
+    .article__mobile__items__group{
+        justify-content: space-evenly;
+        flex-direction: row;
+        column-gap: 3rem;
     }
 }
 
@@ -185,9 +187,6 @@ img{
 {
     .margin_two{
         margin: 6rem;
-    }
-    .home{
-        text-align: center;
     }
     .visual__item{
         width: 70%;
@@ -205,15 +204,20 @@ img{
     } 
     .article{
         width: 70%;
+        row-gap: 6vw;
     }
-    .article__text{
+    .article__text, .sources, .home{
         text-align: center;
     }
-    .article__pc__items{
-        row-gap: 10vw;
+    .article__pc__items, .article__mobile__items{
+        row-gap: 9vw;
     }
-    .article__pc__title{
-        margin-bottom: 5vw;
+    .article__pc__title, .article__mobile__title{
+        margin-bottom: 4vw;
         text-align: center;
+    }
+    .article__mobile__items__group{
+        text-align: center;
+        column-gap: calc(3rem + 6vw);
     }
 }

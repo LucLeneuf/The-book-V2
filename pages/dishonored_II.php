@@ -71,10 +71,11 @@
                         </div>
 				</div>
 
-                <p class=" gris1 info top2">
+                <p class="sources">
                         Download images for high resolution.<br><br>
-                        Fonts used : Arca Majora 3 by Alfredo Marco Pradil / Multicolore by Neogrey Creative / Century Gothic.<br><br> 
-                        Pictures used : All come from the artist Sergey Kolesov.
+                        
+                        Arca Majora 3 by <a style="font-style: italic;"href="https://www.behance.net/pradil" target="blank">Alfredo Marco Pradil</a> - Multicolore by <a style="font-style: italic;"href="https://www.neogrey.com/" target="blank">Neogrey Creative</a> - Century Gothic.<br> 
+                        Pictures from the artist <a style="font-style: italic;"href="https://www.artstation.com/peleng" target="blank">Sergey Kolesov</a>.
     		    </p>
     </div>
 </div>
