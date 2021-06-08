@@ -73,7 +73,7 @@ a:hover{
 .visual{
     display: flex;
     flex-direction: column;
-    row-gap: 10vw;
+    row-gap: 2rem;
 }
 .visual__item__thumbnail{
     position: relative;
@@ -112,6 +112,7 @@ a:hover{
 .visual__item__text_mobile{
     font-family: "gilroy";
     letter-spacing: 6px;
+    margin-bottom: 1rem;
 }
 
 
@@ -162,10 +163,12 @@ a:hover{
     .margin_two{
         margin: 3rem;
     }
+    .visual{
+        row-gap: 3.5rem;
+    }
     .visual__item{
         display: flex;
         flex-direction: column;
-        row-gap: 1.5rem;
     }  
     .article{
         row-gap: 5rem;
@@ -187,6 +190,9 @@ a:hover{
 {
     .margin_two{
         margin: 6rem;
+    }
+    .visual{
+        row-gap: 10vw;
     }
     .visual__item{
         width: 70%;
