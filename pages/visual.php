@@ -28,7 +28,7 @@
 						</p>
 
 						<div class="visual__item__thumbnail">
-							<a href="into_visual/website_model.php">
+							<a href="magazine_mockup.php">
 								<img src="../assets/images/thumbnail_magazine.jpg">
 
 								<p style="color:white;" class="visual__item__thumbnail__text_pc"> MAGAZINE MOCKUP </p>
@@ -45,7 +45,7 @@
 						</p>
 
 						<div class="visual__item__thumbnail">
-							<a href="into_visual/website_model.php">
+							<a href="digital_coloring.php">
 								<img src="../assets/images/thumbnail_coloration.jpg">
 
 								<p style="color:white;" class="visual__item__thumbnail__text_pc"> DIGITAL COLORING </p>

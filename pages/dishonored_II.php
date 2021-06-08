@@ -78,6 +78,7 @@
                         Pictures from the artist <a style="font-style: italic;"href="https://www.artstation.com/peleng" target="blank">Sergey Kolesov</a>.
     		    </p>
     </div>
+    
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>

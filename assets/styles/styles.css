@@ -31,7 +31,7 @@ img{
     height: auto;
     vertical-align: middle;
 }
-a{
+a, .sources span{
     color: white;
     transition: 0.3s;
 }
@@ -114,6 +114,7 @@ a:hover{
     letter-spacing: 6px;
     margin-bottom: 1rem;
 }
+
 
 
 /* ARTICLE */
