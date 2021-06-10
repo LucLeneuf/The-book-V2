@@ -159,6 +159,13 @@ a:hover{
 }
 
 
+/* JS */
+
+#image{
+    cursor: pointer;
+}
+
+
 @media screen and (min-width: 30rem)
 {
     .margin_two{
