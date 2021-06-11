@@ -25,17 +25,20 @@ body{
     background-color: black;
     color: #bfbfbf;
     font-family: "montserrat";
+    opacity: 0;
+    transition: opacity 0.4s;
 }
 img{
     width: 100%;
     height: auto;
     vertical-align: middle;
 }
-a, .sources span{
+a, .sources span, span{
     color: white;
     transition: 0.3s;
+    cursor: pointer;
 }
-a:hover{
+a:hover, span:hover{
     color: #ed1d27;
 }
 .margin_one{
