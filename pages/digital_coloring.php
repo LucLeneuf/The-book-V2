@@ -9,14 +9,14 @@
         
                 <p class="article__text__description">
                     Coloring of the character Kugo Ginjo, from the manga Bleach. <br> 
-                    A lot of time spent to achieve this.
+                    Inspired by the talented <a style="font-style: italic;" href="https://www.deviantart.com/benderzz">benderZz</a>. 
                 </p>
             </div>
  
             <div class="article__pc">
                 <div class="article__pc__items">
                     <div>
-                        <p style="margin-bottom:0.6rem;"> Final result </p>
+                        <p style="margin-bottom:0.6rem;"> Definitive version </p>
                         <img src="../assets/images/picture__kugo_ginjo.jpg" alt="Index version pc">
                     </div>
                 </div>

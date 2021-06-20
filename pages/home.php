@@ -15,7 +15,7 @@
                 </p>
             
                 <p class="home__over_here"> 
-                    <span onclick="transitionToPage('visual.php')">Over here</span> 
+                   <a href="visual.php">Over here</a> 
                 </p>
 		</div>
 

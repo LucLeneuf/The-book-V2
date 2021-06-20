@@ -9,5 +9,27 @@
 </head>
 <body>
 
+    <div class="menu_computer">
+        <a href="../pages/home.php" id="onFocus" class="current"> Home </a>
+        <a href="../pages/visual.php" id="video"> Visual </a>
+        <a href="../pages/contact.php" id="synopsis"> Contact </a>
+    </div>
+
+    <div class="menu_mobile">
+            <div class="menu_mobile__items" id="menu">
+                <a href="../pages/home.php"> Home </a>
+                <a href="../pages/visual.php"> Visual </a>
+                <a href="../pages/contact.php"> Contact </a>
+            </div>
+
+            <div class="menu_mobile__button" id="button_mobile">
+                <div class="menu_mobile__button__hamburger" id="hamburger"> 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu_mobile__button__cross" id="cross">x</div>
+            </div>
+    </div>
 
     
