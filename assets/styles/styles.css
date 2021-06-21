@@ -130,9 +130,7 @@ a:hover, span:hover{
     .menu_mobile{
         display: flex;
         justify-content: flex-end;
-        position: absolute;
-        top: 1.5rem;
-        right: 1.5rem;
+        padding:1.5rem 1.5rem 0 0;
     }
     .menu_mobile__items{
         position: fixed;
@@ -149,11 +147,14 @@ a:hover, span:hover{
         transform: scaleX(0);
         transform-origin: right;
         transition: transform 0.3s ease-in-out;
-        letter-spacing: 0.4rem;
-        padding-left: 0.4rem;
         row-gap: calc(3rem + 6vw) ;
         z-index: 1;
+    }
+    .menu_mobile__items a{
         text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 0.4rem;
+        padding-left: 0.4rem
     }
     .menu_mobile__button{
         display: flex;
@@ -173,18 +174,35 @@ a:hover, span:hover{
         transition: 0.5s;
         font-size: 1.6rem;
         position: fixed;
+        z-index: 1;
     }
     .menu_mobile__button__hamburger {
         position: relative;
         top: 0;
         right: 0;
         margin: 0 auto;
-        width: 20px;
-        height: 20px;
-        background-color: red;
+     
         transition: 0.5s;
         opacity: 1;
+        display: flex;
+        flex-direction: column;
+        row-gap: 6px;
+        z-index: 2;
+        
+        
     }
+    .menu_mobile__button__hamburger div{
+        background-color: white;
+        width: 40px;
+        height: 4px;
+        column-gap: 0.2rem;
+        transition: 0.3s ease-in-out;
+    }
+    .menu_mobile__button__hamburger:hover div{
+        background-color: #ed1d27;
+        transition: 0.3s ease-in-out;
+    }
+    
     .menu_mobile__button, .menu_mobile{
     -webkit-tap-highlight-color: transparent;
     }
@@ -287,7 +305,7 @@ a:hover, span:hover{
         column-gap: 3rem;
     }
     .menu_mobile{
-        top: 3rem;
+        padding: 3rem 3rem 0 0;
         right: 3rem;
     }
 }
