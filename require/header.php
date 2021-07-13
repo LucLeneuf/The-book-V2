@@ -14,6 +14,7 @@
         <a href="../pages/visual.php" id="video"> Visual </a>
         <a href="../pages/contact.php" id="synopsis"> Contact </a>
     </div>  
+    
 
     <div class="menu_mobile">
             <div class="menu_mobile__items" id="menu">
