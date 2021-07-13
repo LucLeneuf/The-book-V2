@@ -4,7 +4,7 @@
 
 	<div class="visual">
 
-                <div class="visual__item">
+                <div class="visual__item" data-aos="fade-up">
 						<p class="visual__item__text_mobile">
 							<span style="color:white;" >WEBSITE</span><br> 
 							MODEL
@@ -21,7 +21,7 @@
 						</div>
 				</div>
 
-				<div class="visual__item">
+				<div class="visual__item" data-aos="fade-up">
 						<p class="visual__item__text_mobile">
 							<span style="color:white;" >MAGAZINE</span><br> 
 							MOCKUP
@@ -38,7 +38,7 @@
 						</div>
 				</div>
 
-				<div class="visual__item">
+				<div class="visual__item" data-aos="fade-up">
 						<p class="visual__item__text_mobile">
 							<span style="color:white;" >DIGITAL</span><br> 
 							COLORING
@@ -63,5 +63,10 @@
 	<script type="text/javascript">
         $(".visual__item__text_mobile").fitText(1.4, { minFontSize: '20px', maxFontSize: '60px' });
 </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 
 <?php require "../require/footer.php"; ?>

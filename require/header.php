@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>The book</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <a href="../pages/home.php" id="onFocus" class="current"> Home </a>
         <a href="../pages/visual.php" id="video"> Visual </a>
         <a href="../pages/contact.php" id="synopsis"> Contact </a>
-    </div>
+    </div>  
 
     <div class="menu_mobile">
             <div class="menu_mobile__items" id="menu">
@@ -24,9 +25,8 @@
 
             <div class="menu_mobile__button" id="button_mobile">
                 <div class="menu_mobile__button__hamburger" id="hamburger"> 
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <div></div>
+                    <div></div>
                 </div>
                 <div class="menu_mobile__button__cross" id="cross">x</div>
             </div>
