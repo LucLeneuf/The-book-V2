@@ -44,16 +44,19 @@ a, .sources span, span{
 }
 a:hover, span:hover{
     color: #ed1d27;
+    
 }
 .margin_one{
     display: grid;
     place-items: center;
     margin: 3rem;
+    
 }
 .margin_two{
     display: grid;
     place-items: center;
     margin: 1.5rem;
+    
 }
 
 
@@ -131,6 +134,7 @@ a:hover, span:hover{
         display: flex;
         justify-content: flex-end;
         padding:1.5rem 1.5rem 0 0;
+
     }
     .menu_mobile__items{
         position: fixed;
@@ -198,10 +202,10 @@ a:hover, span:hover{
         column-gap: 0.2rem;
         transition: 0.3s ease-in-out;
     }
-    .menu_mobile__button__hamburger:hover div{
+    .menu_mobile__button__hamburger:hover div {
         background-color: #ed1d27;
         transition: 0.3s ease-in-out;
-    }
+    } 
     
     .menu_mobile__button, .menu_mobile{
     -webkit-tap-highlight-color: transparent;
@@ -335,6 +339,7 @@ a:hover, span:hover{
     .article{
         width: 70%;
         row-gap: 6vw;
+    
     }
     .article__text, .sources, .home{
         text-align: center;
@@ -356,4 +361,34 @@ a:hover, span:hover{
     .menu_computer{
         display: flex;
     }
+}
+
+
+form{
+    display: grid;
+    place-items: center;
+}
+
+input{
+    border: transparent;
+    border-radius: 2px;
+    background-color: white;
+    height: 1.5rem;
+    
+}
+::placeholder{
+    color: #bfbfbf;
+    font-family: "montserrat";
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+   
+}
+
+.name, .email, .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
 }
