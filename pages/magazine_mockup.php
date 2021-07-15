@@ -16,17 +16,17 @@
     	
     	
 				<div class="article__pc__items">
-					<div>
+					<div data-aos="fade-up">
 						<p style="margin-bottom:0.6rem;">Cover</p>
 						<img id="gp" src="../assets/images/picture__magazine_cover.jpg" alt="Image magazine cover + double pages">
 					</div>
 
-					<div>
+					<div data-aos="fade-up">
 						<p style="margin-bottom:0.6rem;">Summary</p>
 						<img id="gp" src="../assets/images/picture__magazine_sommaire.jpg" alt="Image magazine full double pages">
 					</div>
 						
-					<div>
+					<div data-aos="fade-up">
 						<p style="margin-bottom:0.6rem;">Double pages</p>
 						<img id="gp" src="../assets/images/picture__magazine_double.jpg" alt="Image magazine full double pages">
 					</div>

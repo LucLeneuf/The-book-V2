@@ -9,7 +9,7 @@
         
                 <p class="article__text__description">
                     Coloring of the character Kugo Ginjo, from the manga Bleach. <br> 
-                    Inspired by the talented <a style="font-style: italic;" href="https://www.deviantart.com/benderzz">benderZz</a>. 
+                    Inspired by the talented <a style="font-style: italic;" href="https://www.deviantart.com/benderzz">benderZz</a> . 
                 </p>
             </div>
  
@@ -24,7 +24,7 @@
 
             <div class="article__pc">
                 <div class="article__pc__items">
-                    <div>
+                    <div data-aos="fade-up">
                         <p class="article__pc__title"> TIMELAPSE </p>
                         <p style="margin-bottom:0.6rem;"> Click on it to see the different steps </p>
                         <img src="../assets/images/timelapse/image0.jpg" alt="Index version pc" id="image">

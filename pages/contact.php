@@ -13,14 +13,13 @@
                     <input type="email" id="email" name="email">
                 </div>
 
-                
                 <div class="content">
                     <label for="content">Content</label>
                     <input type="textarea" id="content" name="content">
                 </div>
         </div>
 
-        <input type="submit" name="send">
+        <input type="submit" name="send" value="SEND">
         
     </form>
 

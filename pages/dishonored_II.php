@@ -23,17 +23,17 @@
                                 <img src="../assets/images/picture_dishonored_II__index_pc.jpg" alt="Index version pc">
                             </div>
 
-                            <div>
+                            <div data-aos="fade-up">
                                 <p style="margin-bottom:0.6rem;"> Contents </p>
                                 <img src="../assets/images/picture_dishonored_II__sommaire_pc.jpg" alt="Sommaire version pc">
                             </div>
 
-                            <div>
+                            <div data-aos="fade-up">
                                 <p style="margin-bottom:0.6rem;"> Characters </p>
                                 <img src="../assets/images/picture_dishonored_II__characters_pc.jpg" alt="Personnage version pc">
                             </div>
 
-                            <div>
+                            <div data-aos="fade-up">
                                 <p style="margin-bottom:0.6rem;"> Corvo </p>
                                 <img src="../assets/images/picture_dishonored_II__corvo_attano_pc.jpg" alt="Présentation Corvo Attano version pc">
                             </div>
@@ -46,24 +46,24 @@
 
                         <div class="article__mobile__items">
                             <div class="article__mobile__items__group">
-                                <div>
+                                <div data-aos="fade-up">
                                     <p style="margin-bottom:0.6rem;"> Home </p>
                                     <img src="../assets/images/picture_dishonored_II__index_mobile.jpg" alt="Index version pc">
                                 </div>
 
-                                <div>
+                                <div data-aos="fade-up">
                                     <p style="margin-bottom:0.6rem;"> Contents </p>
                                     <img src="../assets/images/picture_dishonored_II__sommaire_mobile.jpg" alt="Sommaire version pc">
                                 </div>
                             </div>
                             
                             <div class="article__mobile__items__group">
-                                <div>
+                                <div data-aos="fade-up">
                                     <p style="margin-bottom:0.6rem;"> Characters </p>
                                     <img src="../assets/images/picture_dishonored_II__characters_mobile.jpg" alt="Personnage version pc">
                                 </div>
 
-                                <div>
+                                <div data-aos="fade-up">
                                     <p style="margin-bottom:0.6rem;"> Corvo </p>
                                     <img src="../assets/images/picture_dishonored_II__corvo_attano_mobile.jpg" alt="Présentation Corvo Attano version pc">
                                 </div>
@@ -87,6 +87,14 @@
 		$(".article__pc__title, .article__mobile__title").fitText(2, { minFontSize: '16px', maxFontSize: '22px' }),
         $(".article__text__title").fitText(1.6, { minFontSize: '24px', maxFontSize: '100px' });
 </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 500,
+			easing: 'ease-in-out',
+		});
+	</script>
 
 <?php require "../require/footer.php"; ?>
 

@@ -4,7 +4,7 @@
 
 	<div class="visual">
 
-                <div class="visual__item" data-aos="fade-up">
+                <div class="visual__item">
 						<p class="visual__item__text_mobile">
 							<span style="color:white;" >WEBSITE</span><br> 
 							MODEL
@@ -62,11 +62,15 @@
  	<script src="../assets/scripts/jquery.fittext.js"></script>
 	<script type="text/javascript">
         $(".visual__item__text_mobile").fitText(1.4, { minFontSize: '20px', maxFontSize: '60px' });
-</script>
+	</script>
+	
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+	<script>
+		AOS.init({
+			duration: 500,
+			easing: 'ease-in-out',
+		});
+	</script>
 
 
 <?php require "../require/footer.php"; ?>

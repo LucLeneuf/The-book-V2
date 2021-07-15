@@ -23,12 +23,12 @@
                             <img src="../assets/images/picture_batman__home_pc.jpg" alt="Home version pc">
                         </div>
 
-                        <div>
+                        <div data-aos="fade-up">
                             <p style="margin-bottom:0.6rem;"> Synopsis </p>
                             <img src="../assets/images/picture_batman__synopsis_pc.jpg" alt="Synopsis version pc">
                         </div>
 
-                        <div>
+                        <div data-aos="fade-up">
                             <p style="margin-bottom:0.6rem;"> Video </p>
                             <img src="../assets/images/picture_batman__video_pc.jpg" alt="Video version pc">
                         </div>
@@ -40,18 +40,18 @@
                     <p class="article__mobile__title"> MOBILE DISPLAY </p>
 
                     <div class="article__mobile__items__group">
-                        <div>
+                        <div data-aos="fade-up">
                             <p style="margin-bottom:0.6rem;"> Home </p>
                             <img src="../assets/images/picture_batman__home_mobile.jpg" alt="Home version mobile">
                         </div>
 
-                        <div>
+                        <div data-aos="fade-up">
                             <p style="margin-bottom:0.6rem;"> Synopsis </p>
                             <img src="../assets/images/picture_batman__synopsis_mobile.jpg" alt="Synopsis version mobile">
                         </div>
                     </div>
                     <div class="article__mobile__items__group">
-                        <div>
+                        <div data-aos="fade-up">
                             <p style="margin-bottom:0.6rem;"> Video </p>
                             <img src="../assets/images/picture_batman__video_mobile.jpg" alt="Video version mobile">
                         </div>
