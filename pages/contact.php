@@ -5,18 +5,18 @@
         <div class="field">
                 <div class="name">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                 </div>
 
                 <div class="email">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required >
                 </div>
 
                 
                 <div class="content">
                     <label for="content">Content</label>
-                    <input type="textarea" id="content" name="content">
+                    <input type="textarea" id="content" name="content" required >
                 </div>
         </div>
 
