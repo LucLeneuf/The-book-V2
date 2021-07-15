@@ -37,12 +37,15 @@ img{
     height: auto;
     vertical-align: middle;
 }
-a, .sources span, span{
+input[type="submit"]{
+    all: unset;
+}
+a, .sources span, span, input[type="submit"]{
     color: white;
     transition: 0.3s;
     cursor: pointer;
 }
-a:hover, span:hover{
+a:hover, span:hover, input[type="submit"]:hover{
     color: #ed1d27;
     
 }
@@ -365,17 +368,24 @@ a:hover, span:hover{
 }
 
 
+
+
+
+
+
+
 form{
     display: grid;
     place-items: center;
+    flex-direction: column;
+    row-gap: 6rem;
 }
-
 input{
     border: transparent;
-    border-radius: 2px;
     background-color: white;
     height: 1.5rem;
-    
+    outline: none;
+    padding: 0.2rem;
 }
 ::placeholder{
     color: #bfbfbf;
@@ -385,11 +395,30 @@ input{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-   
 }
-
 .name, .email, .content{
     display: flex;
     flex-direction: column;
-    row-gap: 0.2rem;
+    row-gap: 0.4rem;
+    color: #bfbfbf;
+}
+
+input[type="text"], input[type="email"], textarea {
+    color: black;
+}
+.field__info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+textarea{
+    outline:none;
+    padding: 0.2rem;
+}
+
+.big{
+    font-size: 2rem; 
 }
