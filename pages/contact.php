@@ -1,26 +1,34 @@
 <?php require "../require/header.php"; ?>
 
+
+<div class="margin_one">
     <form action="contact_handler.php" method="post">
 
+    <p class="title_contact"> CONTACT ME </p>
+
         <div class="field">
+            <div class="field__info">
                 <div class="name">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
 
                 <div class="email">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required >
                 </div>
-
+            </div>
+                
                 <div class="content">
-                    <label for="content">Content</label>
-                    <input type="textarea" id="content" name="content">
+                    <label for="message">Message *</label>
+                    <textarea id="content" name="message"  rows="6" required></textarea>
                 </div>
         </div>
 
+        <div class="button">
         <input type="submit" name="send" value="SEND">
+        </div>
         
     </form>
-
+    </div>
 <?php require "../require/footer.php"; ?>

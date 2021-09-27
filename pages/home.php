@@ -1,24 +1,30 @@
-<?php require "../require/header.php"; ?>
+<?php 
+    $title = "Home";
+    $style = "Home"; 
+    require "../require/header.php"; 
+?>
 
-<div class="margin_one">
+
 
 		<div class="home">
                 <p class="home__hi">HI.</p>
     
-                <p class="home__welcome"> 
-                    Welcome to my book.<br><br> 
+                <div class="home__welcome"> 
+                    <p>Welcome to my book.</p> 
 
-                    To briefly introduce myself, my name is Luc, I am 26 years old and I am passionate about design, typography and images.<br><br>
+                    <p>To briefly introduce myself, my name is Luc, I am 26 years old and I am passionate about design, typography and images.</p>
 
-                    You will find here the projects I worked on during my free time.<br> 
-                    I hope you will enjoy my design.
-                </p>
+                    <p>
+                        You will find here the projects I worked on during my free time.<br> 
+                        I hope you will enjoy my design.
+                    </p>
+                </div>
             
                 <p class="home__over_here"> 
                    <a href="visual.php">Over here</a> 
                 </p>
 		</div>
 
-</div>
+
     
 <?php require "../require/footer.php"; ?>

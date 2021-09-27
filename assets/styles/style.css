@@ -26,23 +26,30 @@ body{
     color: #bfbfbf;
     font-family: "montserrat";
     position: relative;
-    /*
-    opacity: 0;
-    transition: ease 0.15s;
-    */
-    
 }
 img{
     width: 100%;
     height: auto;
     vertical-align: middle;
 }
-a, .sources span, span{
+input[type="submit"]{
+    all: unset;
+    background-color: transparent;
+    padding: 1rem;
+    border: solid white 2px;
+}
+
+.button{
+    position: relative;
+    
+}
+
+a, .sources span, span, input[type="submit"]{
     color: white;
     transition: 0.3s;
     cursor: pointer;
 }
-a:hover, span:hover{
+a:hover, span:hover, input[type="submit"]:hover{
     color: #ed1d27;
     
 }
@@ -60,22 +67,6 @@ a:hover, span:hover{
 }
 
 
-/* HOME */
-
-.home{
-    display: flex;
-    flex-direction: column;
-    row-gap: 4rem;
-    max-width: 34rem;
-}
-.home__hi{
-    font-family: "hammersmith";
-    font-size: 5rem;
-    color: white;
-}
-.home__welcome{
-    line-height: 2rem;
-}
 
 
 /* VISUAL */
@@ -217,9 +208,7 @@ a:hover, span:hover{
     .menu_computer{
         display: none;
         position: absolute;
-        top: 3vw;
-        right: 3vw;
-        justify-content: flex-end;
+     
         column-gap: 2.4vw;
     }
     
@@ -281,6 +270,92 @@ a:hover, span:hover{
     opacity: 1;
 }
 
+/* contact  */
+form{
+    display: flex;
+   
+    flex-direction: column;
+    row-gap: 4.5rem;
+    
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+input{
+    border: transparent;
+    background-color: white;
+    height: 1.5rem;
+    outline: none;
+    padding: 0.2rem;
+   
+    
+}
+::placeholder{
+    color: #bfbfbf;
+    font-family: "montserrat";
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    width: 100%;
+    
+    
+}
+.name, .email, .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    color: #bfbfbf;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+    color: black;
+    font-family: "montserrat";
+    
+
+}
+
+input[type="submit"]{
+    font-family: "gilroy";
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+    padding-left: 1.3rem;
+    
+    
+}
+.field__info{
+    display: flex;
+    flex-direction: column;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+textarea{
+    outline:none;
+    padding: 0.2rem;
+    border: none;
+    
+}
+
+
+
+
+.title_contact{
+    font-size: 1.6rem;
+    color: white;
+    font-family: "gilroy";
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+
+
 
 @media screen and (min-width: 30rem)
 {
@@ -308,8 +383,15 @@ a:hover, span:hover{
         flex-direction: row;
         column-gap: 3rem;
     }
-    .menu_mobile{
-        padding: 3rem 3rem 0 0;
+ 
+
+    form{
+        max-width: 30rem;
+    }
+
+    .field__info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -364,31 +446,8 @@ a:hover, span:hover{
 }
 
 
-form{
-    display: grid;
-    place-items: center;
-}
 
-input{
-    border: transparent;
-    border-radius: 1px;
-    background-color: white;
-    height: 1.5rem;
-    
-}
-::placeholder{
-    color: #bfbfbf;
-    font-family: "montserrat";
-}
-.field{
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-   
-}
 
-.name, .email, .content{
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.2rem;
-}
+
+
+
