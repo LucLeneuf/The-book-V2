@@ -1,48 +1,54 @@
-body{
+/* BASICS */
+
+body {
     box-sizing: border-box;
-    align-items: center;
     padding: 3rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    
-}
-
-.menu_computer {
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-  column-gap: 3rem;
-}
-
-.menu_mobile{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    place-items: center;
 
 }
 
-/* HOME */
 
-.home{
-    display: flex;
-    flex-direction: column;
-    row-gap: 4rem;
-    max-width: 34rem;
-    
-}
-.home__hi{
-    font-family: "hammersmith";
-    font-size: 5rem;
-    color: white;
-}
-.home__welcome{
-    line-height: 2rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.6rem;
-}
+/* MAIN */
+
+    /* Menu */
+
+    .menu_mobile {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        top: 3rem;
+        right: 3rem;
+
+    }
+    .menu_computer {
+        position: absolute;
+        display: none;
+        column-gap: 3rem;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    /* Home */
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        max-width: 34rem;
+    }
+    .home__hi {
+        font-family: "hammersmith";
+        font-size: 5rem;
+        color: white;
+    }
+    .home__welcome {
+        line-height: 2rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.6rem;
+    }
 
 
 @media screen and (min-width: 35rem)
@@ -50,31 +56,29 @@ body{
     body {
         padding: 6rem;
         padding-top: 9rem;
-    padding-bottom: 9rem;
-       
+        padding-bottom: 9rem;
     }
-    .menu_mobile{
+    .menu_mobile {
         top: 6rem;
         right: 6rem;
-        padding: 0;
-    
     }
-
 }
 
 
 @media screen and (min-width: 65rem)
 {
-    .menu_computer {
-        top: 3rem;
-        right: 3rem;
-      }
     body {
         padding: 6rem;
-        margin: auto;
     }
-    .menu_mobile{
+    .menu_mobile {
         display: none;
     }
-      
+    .menu_computer {
+        display: flex;
+        top: 3rem;
+        right: 3rem;
+    }
+    .home {
+        text-align: center;
+    }
 }
