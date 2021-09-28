@@ -2,9 +2,9 @@
 
 body {
     box-sizing: border-box;
-    padding: 3rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,21 +17,7 @@ body {
 
     /* Menu */
 
-    .menu_mobile {
-        position: absolute;
-        display: flex;
-        justify-content: flex-end;
-        top: 3rem;
-        right: 3rem;
 
-    }
-    .menu_computer {
-        position: absolute;
-        display: none;
-        column-gap: 3rem;
-        top: 3rem;
-        right: 3rem;
-    }
 
     /* Home */
 
@@ -45,6 +31,8 @@ body {
         font-family: "hammersmith";
         font-size: 5rem;
         color: white;
+        line-height: 4rem;
+        padding-bottom: 0.8rem;
     }
     .home__welcome {
         line-height: 2rem;
@@ -75,14 +63,6 @@ body {
 {
     body {
         padding: 6rem;
-    }
-    .menu_mobile {
-        display: none;
-    }
-    .menu_computer {
-        display: flex;
-        top: 3rem;
-        right: 3rem;
     }
     .home {
         text-align: center;

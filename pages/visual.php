@@ -1,6 +1,10 @@
 <?php require "../require/header.php"; ?>
 
-<div class="margin_two">
+	<div class="menu_computer">
+        <a href="../pages/home.php" id="video"> Home </a>
+        <a href="../pages/visual.php" id="onFocus" class="current"> Visual </a>
+        <a href="../pages/contact.php" id="synopsis"> Contact </a>
+    </div>  
 
 	<div class="visual">
 
@@ -56,7 +60,7 @@
 				</div>
 
 	</div>
-</div>
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="../assets/scripts/jquery.fittext.js"></script>

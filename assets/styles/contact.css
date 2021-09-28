@@ -1,0 +1,100 @@
+body {
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    width: 100%;
+}
+input {
+    background-color: white;
+    border: transparent;
+    outline: none;
+    width: calc(100% - 0.4rem);
+    height: 1.5rem;
+    padding: 0.2rem;
+}
+
+::placeholder {
+    color: #bfbfbf;
+    font-family: "montserrat";
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    width: 100%;
+}
+.name, .email, .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    color: #bfbfbf;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    color: black;
+    font-family: "montserrat";
+}
+
+input[type="submit"] {
+    font-family: "gilroy";
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+    padding-left: 1.3rem;
+}
+.field__info {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    column-gap: 3rem;
+    row-gap: 2.5rem;
+}
+textarea {
+    outline:none;
+    border: none;
+    padding: 0.2rem;
+}
+.title_contact {
+    text-align: center;
+    font-family: "gilroy";
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+}
+.button {
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 35rem)
+{
+    body {
+        padding-bottom: 12rem;
+    }
+    form {
+        max-width: 30rem;
+        row-gap: 4rem;
+    }
+    .field__info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .title_contact {
+        font-size: 2rem;
+    }
+
+
+}
+
