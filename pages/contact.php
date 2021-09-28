@@ -6,7 +6,7 @@
 
     <div class="menu_computer">
         <a href="../pages/home.php" id="synopsis" > Home </a>
-        <a href="../pages/visual.php" id="video"> Visual </a>
+        <a href="../pages/visual.php" id="video"> Visuals </a>
         <a href="../pages/contact.php" id="onFocus" class="current"> Contact </a>
     </div>  
 

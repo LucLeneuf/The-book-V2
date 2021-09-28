@@ -1,12 +1,11 @@
+/* BASICS */
+
 body {
     padding-bottom: 5rem;
 }
 
 
-
-
-
-
+/* MAIN */
 
 form {
     display: flex;
@@ -16,44 +15,11 @@ form {
     row-gap: 3rem;
     width: 100%;
 }
-input {
-    background-color: white;
-    border: transparent;
-    outline: none;
-    width: calc(100% - 0.4rem);
-    height: 1.5rem;
-    padding: 0.2rem;
-}
-
-::placeholder {
-    color: #bfbfbf;
-    font-family: "montserrat";
-}
 .field {
     display: flex;
     flex-direction: column;
     row-gap: 2.5rem;
     width: 100%;
-}
-.name, .email, .content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.6rem;
-    color: #bfbfbf;
-}
-
-input[type="text"], 
-input[type="email"], 
-textarea {
-    color: black;
-    font-family: "montserrat";
-}
-
-input[type="submit"] {
-    font-family: "gilroy";
-    letter-spacing: 0.3rem;
-    padding: 1rem;
-    padding-left: 1.3rem;
 }
 .field__info {
     display: flex;
@@ -62,11 +28,6 @@ input[type="submit"] {
     column-gap: 3rem;
     row-gap: 2.5rem;
 }
-textarea {
-    outline:none;
-    border: none;
-    padding: 0.2rem;
-}
 .title_contact {
     text-align: center;
     font-family: "gilroy";
@@ -74,9 +35,46 @@ textarea {
     font-size: 1.6rem;
     letter-spacing: 0.4rem;
 }
-.button {
-    margin-top: 1.5rem;
+.name, .email, .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    color: #bfbfbf;
 }
+
+    /* Input */
+
+    input, textarea{
+        background-color: white;
+        font-family: "montserrat";
+        color: black;
+        border: transparent;
+        outline: none;
+        width: calc(100% - 0.8rem);
+        padding: 0.2rem;
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+    }
+    input {
+        height: 1.5rem;
+    }
+    input[type="submit"] {
+        all: unset;
+        border: solid white 2px;
+        background-color: transparent;
+        font-family: "gilroy";
+        letter-spacing: 0.3rem;
+        padding: 1rem;
+        padding-left: 1.3rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+    }
+    textarea {
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        height: 9rem;
+    }
+
 
 @media screen and (min-width: 35rem)
 {
@@ -94,7 +92,4 @@ textarea {
     .title_contact {
         font-size: 2rem;
     }
-
-
 }
-

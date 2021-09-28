@@ -1,6 +1,6 @@
 <?php require "../require/header.php"; ?>
 
-<div class="margin_two">
+
 
     <div class="article">
 
@@ -79,7 +79,7 @@
     		    </p>
     </div>
     
-</div>
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="../assets/scripts/jquery.fittext.js"></script>

@@ -38,12 +38,7 @@ img {
     height: auto;
     vertical-align: middle;
 }
-input[type="submit"] {
-    all: unset;
-    border: solid white 2px;
-    background-color: transparent;
-    padding: 1rem;
-}
+
 
 a, .sources span, span, input[type="submit"]{
     color: white;
@@ -284,7 +279,6 @@ a:hover, span:hover {
     body {
         padding: 6rem;
         padding-top: 12rem;
-        padding-bottom: 6rem;
     }
     .menu_mobile {
         top: 6rem;

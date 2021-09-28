@@ -1,8 +1,12 @@
-<?php require "../require/header.php"; ?>
+<?php 
+	$title = "Visuals";
+	$style = ""; 
+	require "../require/header.php"; 
+?>
 
 	<div class="menu_computer">
         <a href="../pages/home.php" id="video"> Home </a>
-        <a href="../pages/visual.php" id="onFocus" class="current"> Visual </a>
+        <a href="../pages/visual.php" id="onFocus" class="current"> Visuals </a>
         <a href="../pages/contact.php" id="synopsis"> Contact </a>
     </div>  
 
