@@ -5,7 +5,10 @@ body {
     padding: 3rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -35,7 +38,7 @@ body {
     .home {
         display: flex;
         flex-direction: column;
-        row-gap: 4rem;
+        row-gap: 2rem;
         max-width: 34rem;
     }
     .home__hi {
@@ -55,12 +58,15 @@ body {
 {
     body {
         padding: 6rem;
-        padding-top: 9rem;
-        padding-bottom: 9rem;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
     }
     .menu_mobile {
         top: 6rem;
         right: 6rem;
+    }
+    .home {
+        row-gap: 4rem;
     }
 }
 

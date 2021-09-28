@@ -1,10 +1,14 @@
-<?php require "../require/header.php"; ?>
+<?php 
+    $title = "Home";
+    $style = "Home"; 
+    require "../require/header.php"; 
+?>
 
 
-<div class="margin_one">
+
     <form action="contact_handler.php" method="post">
 
-    <p class="title_contact"> CONTACT ME </p>
+        <p class="title_contact"> CONTACT ME </p>
 
         <div class="field">
             <div class="field__info">
@@ -30,5 +34,5 @@
         </div>
         
     </form>
-    </div>
+
 <?php require "../require/footer.php"; ?>
