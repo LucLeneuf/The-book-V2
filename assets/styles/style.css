@@ -38,7 +38,6 @@ img {
     vertical-align: middle;
 }
 
-
 a, .sources span, span, input[type="submit"]{
     color: white;
     cursor: pointer;
@@ -56,7 +55,6 @@ a:hover, span:hover {
     display: flex;
     flex-direction: column;
     row-gap: 2.5rem;
-  
 }
 .visual__item__thumbnail{
     position: relative;
@@ -196,7 +194,7 @@ a:hover, span:hover {
 .article{
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 4rem;
 }
 .article__text{
     display: flex;
@@ -215,7 +213,7 @@ a:hover, span:hover {
 .article__pc__items, .article__mobile__items, .article__mobile__items__group{
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
+    row-gap: 2.5rem;
 }
 .article__mobile{
     width: 100%;
@@ -225,8 +223,16 @@ a:hover, span:hover {
 .article__mobile__items__group{
     justify-content: space-between;
 }
+
+.article__pc, .article__mobile, .article__text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+
 .article__pc__title, .article__mobile__title{
-    margin-bottom: 1.5rem;
+    /*margin-bottom: 2.5rem;*/
     font-family: "gilroy";
     letter-spacing: 6px;
     color: white;
@@ -248,13 +254,16 @@ a:hover, span:hover {
     opacity: 1;
 }
 
+.article__mobile {
+    margin-top: 1.5rem;
+   
+}
+
 
 
 @media screen and (min-width: 35rem)
 {
-    .margin_two{
-        margin: 3rem;
-    }
+  
     .visual{
         row-gap: 6rem;
     }
@@ -263,26 +272,31 @@ a:hover, span:hover {
         flex-direction: column;
     }  
     .article{
-        row-gap: 5rem;
+        row-gap: 12vw;
     }
-    .article__pc__items, .article__mobile__items, .article__text{
-        row-gap: 3rem;
+    .article__pc__items, .article__mobile__items{
+        row-gap: 12vw;
     }  
-    .article__pc__title, .article__mobile__title{
-        margin-bottom: 3rem;
+
+    .article__pc, .article__mobile, .article__text{
+        display: flex;
+        flex-direction: column;
+        row-gap: 6vw;
     }
+ 
     .article__mobile__items__group{
         justify-content: space-evenly;
         flex-direction: row;
-        column-gap: 3rem;
+        column-gap: 12vw;
     }
 
     body {
-        padding: 12rem 6rem 12rem 6rem;
+        /*padding: 12rem 6rem 12rem 6rem;*/
+        padding: 24vw 12vw 24vw 12vw;
     }
     .menu_mobile {
-        top: 6rem;
-        right: 6rem;
+        top: 12vw;
+        right: 12vw;
     }
 
     
@@ -334,7 +348,7 @@ a:hover, span:hover {
 
 
     body {
-        padding: 7rem ;
+        padding: 8rem ;
     }
     .menu_mobile {
         display: none;
@@ -349,7 +363,6 @@ a:hover, span:hover {
 .current{
     color: #ff2b2b ;
 }
-
 
 
 

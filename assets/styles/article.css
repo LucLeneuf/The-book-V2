@@ -1,0 +1,18 @@
+body {
+    padding-bottom: 2.5rem !important;
+    row-gap: 2.5rem;
+}
+.article__text__description {
+    line-height: 2rem;
+}
+
+
+/* TABLET */
+
+@media screen and (min-width: 35rem)
+
+{
+    body {
+        padding-bottom: 12vw !important;
+    }
+}

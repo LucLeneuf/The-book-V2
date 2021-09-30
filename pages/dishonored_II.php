@@ -1,6 +1,10 @@
-<?php require "../require/header.php"; ?>
 
 
+    <?php 
+        $title = "Dishonored II";
+        $style = "article"; 
+        require "../require/header.php"; 
+    ?>
 
     <div class="article">
 
@@ -77,7 +81,9 @@
                         Arca Majora 3 by <a style="font-style: italic;"href="https://www.behance.net/pradil" target="blank">Alfredo Marco Pradil</a> - Multicolore by <a style="font-style: italic;"href="https://www.neogrey.com/" target="blank">Neogrey Creative</a> - Century Gothic.<br> 
                         Pictures from the artist <a style="font-style: italic;"href="https://www.artstation.com/peleng" target="blank">Sergey Kolesov</a>.
     		    </p>
+
     </div>
+
     
 
 

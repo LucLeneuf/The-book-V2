@@ -1,58 +1,41 @@
-/* BASICS */
+/* MAIN */
 
-body {
-    box-sizing: border-box;
+.home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    max-width: 34rem;
+    row-gap: 2rem;
+}
+.home__hi {
+    font-family: "hammersmith";
+    font-size: 5rem;
+    color: white;
+    line-height: 4rem;
+    padding-bottom: 0.8rem;
+    user-select: none;
+}
+.home__main_text {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    row-gap: 1.6rem;
+}
+.home__link {
+    user-select: none;
 }
 
 
-/* MAIN */
-
-    /* Menu */
-
-
-
-    /* Home */
-
-    main {
-        display: flex;
-        flex-direction: column;
-        row-gap: 2rem;
-        max-width: 34rem;
-    }
-    .home__hi {
-        font-family: "hammersmith";
-        font-size: 5rem;
-        color: white;
-        line-height: 4rem;
-        padding-bottom: 0.8rem;
-        user-select: none;
-    }
-    .home__main_text {
-        line-height: 2rem;
-        display: flex;
-        flex-direction: column;
-        row-gap: 1.6rem;
-    }
-    .home__link {
-        user-select: none;
-    }
-
+/* TABLET */ 
 
 @media screen and (min-width: 35rem)
 {
-    body {
-       
-    }
     .home {
         row-gap: 4rem;
     }
 }
 
+
+/* PC */
 
 @media screen and (min-width: 65rem)
 {

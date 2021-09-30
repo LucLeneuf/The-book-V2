@@ -11,7 +11,7 @@
     </div>  
 
     <form action="contact_handler.php" method="post">
-        
+
             <p class="form__title"> CONTACT ME </p>
 
             <div class="form__field">
@@ -37,7 +37,7 @@
             <div class="submit_button">
                 <input type="submit" name="send" value="SEND">
             </div>
-            
+
     </form>
 
 <?php require "../require/footer.php"; ?>
