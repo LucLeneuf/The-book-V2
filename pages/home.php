@@ -10,10 +10,10 @@
         <a href="../pages/contact.php" id="synopsis"> Contact </a>
     </div>  
 
-    <div class="home">
+    <main class="home">
             <p class="home__hi">HI.</p>
 
-            <div class="home__welcome"> 
+            <div class="home__main_text"> 
                 <p>Welcome to my book.</p> 
 
                 <p>To briefly introduce myself, my name is Luc, I am 26 years old and I am passionate about design, typography and images.</p>
@@ -24,9 +24,9 @@
                 <p>
             </div>
         
-            <p class="home__over_here"> 
+            <p class="home__link"> 
                 <a href="visual.php">Over here</a> 
             </p>
-    </div>
+    </main>
     
 <?php require "../require/footer.php"; ?>

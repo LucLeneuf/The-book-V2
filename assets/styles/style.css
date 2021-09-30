@@ -30,8 +30,7 @@ body {
     background-color: black;
     color: #bfbfbf;
     font-family: "montserrat";
-    padding: 2.5rem;
-    padding-top: 5rem;
+    padding: 5rem 2.5rem 5rem 2.5rem;
 }
 img {
     width: 100%;
@@ -110,13 +109,15 @@ a:hover, span:hover {
         justify-content: flex-end;
         top: 2.5rem;
         right: 2.5rem;
+        user-select: none;
     }
     .menu_computer {
         position: absolute;
         display: none;
-        column-gap: 3rem;
-        top: 3rem;
-        right: 3rem;
+        column-gap: 3.5rem;
+        top: 3.5rem;
+        right: 3.5rem;
+        user-select: none;
     }
     .menu_mobile__items {
         position: fixed;
@@ -277,8 +278,7 @@ a:hover, span:hover {
     }
 
     body {
-        padding: 6rem;
-        padding-top: 12rem;
+        padding: 12rem 6rem 12rem 6rem;
     }
     .menu_mobile {
         top: 6rem;
@@ -334,7 +334,7 @@ a:hover, span:hover {
 
 
     body {
-        padding: 7rem !important;
+        padding: 7rem ;
     }
     .menu_mobile {
         display: none;

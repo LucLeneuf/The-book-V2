@@ -2,9 +2,6 @@
 
 body {
     box-sizing: border-box;
-    padding: 2.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +18,7 @@ body {
 
     /* Home */
 
-    .home {
+    main {
         display: flex;
         flex-direction: column;
         row-gap: 2rem;
@@ -33,25 +30,23 @@ body {
         color: white;
         line-height: 4rem;
         padding-bottom: 0.8rem;
+        user-select: none;
     }
-    .home__welcome {
+    .home__main_text {
         line-height: 2rem;
         display: flex;
         flex-direction: column;
         row-gap: 1.6rem;
+    }
+    .home__link {
+        user-select: none;
     }
 
 
 @media screen and (min-width: 35rem)
 {
     body {
-        padding: 6rem;
-        padding-top: 12rem;
-        padding-bottom: 12rem;
-    }
-    .menu_mobile {
-        top: 6rem;
-        right: 6rem;
+       
     }
     .home {
         row-gap: 4rem;
@@ -61,9 +56,6 @@ body {
 
 @media screen and (min-width: 65rem)
 {
-    body {
-        padding: 6rem;
-    }
     .home {
         text-align: center;
     }
