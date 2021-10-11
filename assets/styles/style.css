@@ -31,6 +31,13 @@ body {
     color: #bfbfbf;
     font-family: "montserrat";
     padding: 5rem 2.5rem 5rem 2.5rem;
+
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
 }
 img {
     width: 100%;
@@ -285,7 +292,7 @@ a:hover, span:hover {
     }
  
     .article__mobile__items__group{
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-direction: row;
         column-gap: 12vw;
     }
@@ -315,6 +322,7 @@ a:hover, span:hover {
     .visual__item{
         width: 70%;
         margin: 0 auto;
+        background-color: red;
     }
     .visual__item__text_mobile{
         display: none;
@@ -327,15 +335,18 @@ a:hover, span:hover {
         right: 0;
     } 
     .article{
-        width: 70%;
-        row-gap: 6vw;
-    
+  row-gap: 8vw;
+  width: 60%;
     }
+    .article__text {
+        row-gap: 3vw;
+    }
+    
     .article__text, .sources{
         text-align: center;
     }
     .article__pc__items, .article__mobile__items{
-        row-gap: 9vw;
+        row-gap: 12vw;
     }
     .article__pc__title, .article__mobile__title{
         margin-bottom: 4vw;
@@ -355,6 +366,10 @@ a:hover, span:hover {
     }
     .menu_computer {
         display: flex;
+    }
+
+    .article__pc, .article__mobile{
+        row-gap: 1vw;
     }
 
 }

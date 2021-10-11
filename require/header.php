@@ -15,8 +15,8 @@
     <div class="menu_mobile">
             <div class="menu_mobile__items" id="menu">
                 <a href="../pages/home.php"> Home </a>
-                <a href="../pages/visual.php"> Visual </a>
                 <a href="../pages/contact.php"> Contact </a>
+                <a href="../pages/visual.php"> Visual </a>
             </div>
 
             <div class="menu_mobile__button" id="button_mobile">

@@ -3,6 +3,7 @@
 		AOS.init({
 			duration: 500,
 			easing: 'ease-in-out',
+			once: false,
 		});
 	</script>
 	<script src="../assets/scripts/transition.js"></script>
