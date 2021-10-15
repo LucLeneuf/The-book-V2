@@ -1,6 +1,6 @@
 <?php 
 	$title = "Website model";
-	$style = "article"; 
+	$style = "visual"; 
 	require "../require/header.php"; 
 ?>
 

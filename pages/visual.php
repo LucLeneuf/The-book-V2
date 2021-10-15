@@ -1,6 +1,6 @@
 <?php 
 	$title = "Visuals";
-	$style = ""; 
+	$style = "visual"; 
 	require "../require/header.php"; 
 ?>
 
@@ -66,14 +66,14 @@
 				<div class="visual__item">
 						<p class="visual__item__text_mobile">
 							<span style="color:white;" >SOON</span><br> 
-							MODEL
+							W.I.P
 						</p>
 					
 						<div class="visual__item__thumbnail">
 							<a href="website_model.php">
 								<img src="../assets/images/miniabat.png">
 
-								<p style="color:white;" class="visual__item__thumbnail__text_pc"> SOON </p>
+								<p style="color:white;" class="visual__item__thumbnail__text_pc"> SOON <br> W.I.P</p>
 								
 								<div class="visual__item__thumbnail__background"></div>
 							</a>
