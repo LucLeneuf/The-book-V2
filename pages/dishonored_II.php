@@ -23,7 +23,6 @@
                     </p>
                 </div>
 
-
     			<div class="article__pc">
                         <p class="article__pc__title"> COMPUTER DISPLAY </p>
 
@@ -99,6 +98,17 @@
 		$(".article__pc__title, .article__mobile__title").fitText(2, { minFontSize: '16px', maxFontSize: '22px' }),
         $(".article__text__title").fitText(1.6, { minFontSize: '24px', maxFontSize: '80px' });
 </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+            startEvent: 'DOMContentLoaded',
+			duration: 500,
+			easing: 'ease-in-out',
+			once: false,
+			disable: 'mobile',
+		});
+	</script>
 
 
 

@@ -1,6 +1,15 @@
-<?php require "../require/header.php"; ?>
+<?php 
+    $title = "The Batman";
+    $style = "article"; 
+    require "../require/header.php"; 
+?>
 
-<div class="margin_two">
+
+    <div class="menu_computer">
+        <a href="../pages/home.php" id="video"> Home </a>
+        <a href="../pages/visual.php" id="onFocus" class="current"> Visuals </a>
+        <a href="../pages/contact.php" id="synopsis"> Contact </a>
+    </div>  
 
     <div class="article">
 
@@ -67,7 +76,6 @@
             </p>
 
     </div>
-</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="../assets/scripts/jquery.fittext.js"></script>
@@ -75,6 +83,17 @@
 		$(".article__pc__title, .article__mobile__title").fitText(2, { minFontSize: '16px', maxFontSize: '22px' }),
         $(".article__text__title").fitText(1.6, { minFontSize: '24px', maxFontSize: '100px' });
 </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+            startEvent: 'DOMContentLoaded',
+			duration: 500,
+			easing: 'ease-in-out',
+			once: false,
+			disable: 'mobile',
+		});
+	</script>
+
 
 <?php require "../require/footer.php"; ?>
 
